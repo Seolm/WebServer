@@ -1,0 +1,38 @@
+tr td{
+  margin: 0 !important;
+}
+
+#table1 {
+    border-collapse: separate;
+    border-spacing: 30px;
+}
+
+#table1>tbody>tr>td{
+    vertical-align:middle;
+    padding: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+td div{
+   display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+div#checkbox1 {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: rgb(212, 206, 228);
+  border-radius: 10px;
+}
+
+input {
+  display: inline;
+  margin: 0 10px 0 0;
+  text-align: center;
+}
+
+#legend1{
+   text-align: center;
+}

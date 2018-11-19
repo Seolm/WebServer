@@ -1,0 +1,127 @@
+/*
+ * Title
+ */
+*{
+	font-family: 'Noto Sans KR';
+}
+
+a#webTitle{
+	text-decoration: none;
+	color: black;
+	font-weight: bold;
+	text-align: center;
+}
+
+.feather {
+  width: 16px;
+  height: 16px;
+  vertical-align: text-bottom;
+}
+
+main{
+	padding-top: 20px;
+}
+
+/*
+ * Sidebar
+ */
+
+.sidebar {
+  /* position: fixed;
+  top: 65px;
+  bottom: 0;
+  left: 0;
+  z-index: 100; Behind the navbar
+  padding: 48px 0 0; Height of navbar */
+  padding-top: 20px;
+  box-shadow: inset -1px 0 0 rgba(0, 0, 0, .1);
+}
+
+.sidebar-sticky {
+  position: relative;
+  top: 0;
+  height: calc(100vh - 100px);  /* -48px */
+  padding-top: .5rem;
+  overflow-x: hidden;
+  overflow-y: auto; Scrollable contents if viewport is shorter than content.
+}
+
+@supports ((position: -webkit-sticky) or (position: sticky)) {
+  .sidebar-sticky {
+    position: -webkit-sticky;
+    position: sticky;
+  }
+}
+
+.sidebar .nav-link {
+  font-weight: 500;
+  color: #333;
+}
+
+.sidebar .nav-link .feather {
+  margin-right: 4px;
+  color: #333;
+}
+
+.sidebar .nav-link.active {
+  color: #8000ff;
+}
+
+.sidebar .nav-link:hover {
+  color: #8000ff;
+  font-size: 17px;
+}
+
+.sidebar .nav-link:hover .feather,
+.sidebar .nav-link.active .feather {
+  color: inherit;
+}
+
+#floating-panel {
+        position: absolute;
+        top: 10px;
+        left: 55%;
+        z-index: 5;
+        padding: 5px;
+        text-align: center;
+        font-family: 'Roboto','sans-serif';
+        line-height: 30px;
+        padding-left: 10px;
+}
+
+#map-canvas {
+	width: 1266px;
+	height: 755px;
+}
+/*
+ * Navbar
+ */
+/*
+.navbar-brand {
+  padding-top: .75rem;
+  padding-bottom: .75rem;
+  font-size: 1rem;
+  background-color: rgba(0, 0, 0, .25);
+  box-shadow: inset -1px 0 0 rgba(0, 0, 0, .25);
+}
+
+.navbar-brand2 {
+  padding-top: .75rem;
+  padding-bottom: .75rem;
+  font-size: 1rem;
+  background-color: rgba(0, 0, 0, .25);
+  box-shadow: inset -1px 0 0 rgba(0, 0, 0, .25);
+}
+
+.navbar .form-control {
+  padding: .75rem 1rem;
+  border-width: 0;
+  border-radius: 0;
+}
+
+.form-control-dark {
+  color: #fff;
+  background-color: rgba(255, 255, 255, .1);
+  border-color: rgba(255, 255, 255, .1);
+}
+*/
